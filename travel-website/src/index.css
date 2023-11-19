@@ -137,12 +137,15 @@ h1, h2, h3{
 .navbar a:visited{
     color: #f4f4f4;
 }
-
-.navbar a{
+.navbar link:link,
+.navbar link:visited{
+    color: #f4f4f4;
+}
+.navbar a link{
     padding-bottom: 0.3rem;
 }
 
-.navbar a:hover{
+.navbar a link:hover{
     border-bottom: 1px solid #fff;
 }
 
